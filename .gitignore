@@ -1,0 +1,24 @@
+.env
+venv/
+env312/
+
+#  Ignore Django and Python Cache Files
+
+__pycache__/
+*.pyc
+*.pyo
+
+db.sqlite3
+
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+
+# Ignore logs and temp files
+logs/
+*.log
+*.bak
+
+# Ignore IDE settings
+.vscode/
+.idea/
